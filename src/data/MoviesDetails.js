@@ -3,7 +3,7 @@ const movies = [
     id: 1,
     title: "Inception",
     year: 2010,
-    image: "/images/movies/inception.jpg",
+    image: "public/inception.jpg",
     description:
       "A skilled thief who steals secrets through dream-sharing technology is offered a chance at redemption if he can plant an idea in someone's mind.",
     team: [
@@ -18,7 +18,7 @@ const movies = [
     id: 2,
     title: "Interstellar",
     year: 2014,
-    image: "/images/movies/interstellar.jpg",
+    image: "/public/interstellar.jpg",
     description:
       "A team of explorers travels beyond our galaxy through a wormhole to find a new planet capable of sustaining human life.",
     team: [
@@ -33,7 +33,7 @@ const movies = [
     id: 3,
     title: "The Dark Knight",
     year: 2008,
-    image: "/images/movies/dark_knight.jpg",
+    image: "/public/dark_knight.jpg",
     description:
       "Batman battles the Joker, a criminal mastermind who brings chaos to Gotham City.",
     team: [
@@ -48,7 +48,7 @@ const movies = [
     id: 4,
     title: "Avatar",
     year: 2009,
-    image: "/images/movies/avatar.jpg",
+    image: "/public/avatar.jpg",
     description:
       "A marine dispatched to the moon Pandora becomes torn between following orders and protecting the world he now calls home.",
     team: [
@@ -63,7 +63,7 @@ const movies = [
     id: 5,
     title: "Titanic",
     year: 1997,
-    image: "/images/movies/titanic.jpg",
+    image: "/public/titanic.jpg",
     description:
       "A young aristocrat falls in love with a poor artist aboard the luxurious but doomed RMS Titanic.",
     team: [
@@ -78,7 +78,7 @@ const movies = [
     id: 6,
     title: "The Matrix",
     year: 1999,
-    image: "/images/movies/matrix.jpg",
+    image: "/public/matrix.jpg",
     description:
       "A hacker discovers that reality is a simulation and joins a rebellion to free humanity from machine control.",
     team: [
@@ -93,7 +93,7 @@ const movies = [
     id: 7,
     title: "Spider-Man: Into the Spider-Verse",
     year: 2018,
-    image: "/images/movies/spiderverse.jpg",
+    image: "/public/spiderverse.jpg",
     description:
       "Teenager Miles Morales becomes the new Spider-Man and meets alternate Spider-People across the multiverse.",
     team: [
@@ -108,7 +108,7 @@ const movies = [
     id: 8,
     title: "La La Land",
     year: 2016,
-    image: "/images/movies/lalaland.jpg",
+    image: "/public/lalaland.jpg",
     description:
       "A jazz musician and an aspiring actress pursue their dreams in Los Angeles while trying to maintain their relationship.",
     team: [
