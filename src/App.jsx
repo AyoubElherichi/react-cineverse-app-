@@ -1,7 +1,7 @@
 import { Routes, Route, Link } from "react-router-dom";
 import "./App.css";
 import NavBar from "./components/NavBar";
-import Footer from "./components/Footer";
+import Footer from "./pages/Footer";
 import Home from "./pages/Home";
 import MovieDetails from "./pages/MovieDetails";
 import Contact from "./pages/Contact";
