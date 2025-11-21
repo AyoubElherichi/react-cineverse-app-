@@ -1,5 +1,13 @@
 *{
   background-color: #EBFAFF;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.discContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
 }
 
 .movieCard {
@@ -17,7 +25,71 @@
   padding: 50px 50px 50px 50px;
 }
 
-.test {
+.imageHome {
   height: 400px;
   width: auto;
+}
+
+/*---------------------------MovieDtails------------------------------*/
+
+.Detail-page {
+  display: flex;
+}
+
+.imageDetail {
+height: auto;
+width: 400px;
+/*   height: 400px;
+  width: auto; */
+}
+
+.photoContainer {
+  display: flex;
+  flex-direction: row;
+margin-bottom: 50px;
+gap: 2px;
+}
+
+.photo {
+  height: 100px;
+  border-radius: 50px;
+}
+
+.photoName {
+  display: flex;
+  flex-direction: column;
+}
+
+.PhotoTile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.MovieInfo {
+  margin-top: 20px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.description-container {
+
+}
+
+.MovieInfo span{
+  font-weight: normal;
+}
+
+
+.returnBtn {
+  background-color:aqua;
+  border: none;
+  width: 90px;
+  color:black;
+  height: 30px;
+  border-radius: 10px;
+  font-weight: 700;
 }

@@ -12,7 +12,7 @@ export default function App() {
       <NavBar />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/MovieDetails" element={<MovieDetails />} />
+        <Route path="/MovieDetails/:id" element={<MovieDetails />} />
         <Route path="/Contact" element={<Contact />} />
       </Routes>
       <Footer />
