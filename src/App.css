@@ -1,0 +1,23 @@
+*{
+  background-color: #EBFAFF;
+}
+
+.movieCard {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 4fr));
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.movieLink {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 50px 50px 50px;
+}
+
+.test {
+  height: 400px;
+  width: auto;
+}
