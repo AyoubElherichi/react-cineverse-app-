@@ -17,7 +17,7 @@ export default function Home() {
           <h1>Watch Shows Online</h1>
         </div>
       </div>
-
+      
       <div className="movieCard">
         {films.map((film) => (
           <Link
@@ -25,7 +25,7 @@ export default function Home() {
             to={`/MovieDetails/${film.id}`}
             className="movieLink"
           >
-            <img className="test" src={film.image} alt={film.title} />
+            <img className="imageHome" src={film.image} alt={film.title} />
             <h3>{film.title}</h3>
           </Link>
         ))}
